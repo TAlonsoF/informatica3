@@ -1,0 +1,200 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#265073;
+    position: relative;
+    color: black;
+    overflow: scroll;
+}
+
+h2{
+    text-align: left;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top-container {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))  , url("images/fondo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    height: 500px;
+    text-align: center;
+
+
+}
+
+.carrera {
+    width: 1300px;
+    margin: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    text-align: justify;
+    background: rgb(60,190,198);
+    background: linear-gradient(90deg, rgba(60,190,198,1) 3%, rgba(25,149,135,1) 44%, rgba(0,212,255,1) 100%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.informacion {
+    margin: 30px 10px;
+    background-color: rgba(221, 255, 199, 0.925);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.imagen{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.carrera-imagen {
+    border-radius: 30px;
+}
+
+header {
+    background: hsla(207, 50%, 30%, 1);
+
+    background: linear-gradient(45deg, hsla(207, 50%, 30%, 1) 17%, hsla(181, 54%, 38%, 1) 58%, hsla(164, 36%, 71%, 1) 84%, hsla(76, 58%, 90%, 1) 100%);
+    
+    background: -moz-linear-gradient(45deg, hsla(207, 50%, 30%, 1) 17%, hsla(181, 54%, 38%, 1) 58%, hsla(164, 36%, 71%, 1) 84%, hsla(76, 58%, 90%, 1) 100%);
+    
+    background: -webkit-linear-gradient(45deg, hsla(207, 50%, 30%, 1) 17%, hsla(181, 54%, 38%, 1) 58%, hsla(164, 36%, 71%, 1) 84%, hsla(76, 58%, 90%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#265073", endColorstr="#2D9596", GradientType=1 );
+
+    padding-top: 15px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+header h1 a{
+    text-align: right;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    transition: color 0.5s ease;    
+}
+
+header h1 a:hover {
+    color: #d6e6ff;
+    background-color: transparent;
+}
+
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+
+nav a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #58a;
+    background-color: transparent;
+}
+
+main {
+    padding: 0 0;
+    margin-top: 0;
+}
+#top-title {
+    margin: 0;
+    padding-top: 20px;
+}
+
+#lista-carreras {
+    width: max-content;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border-spacing: 40px;
+    position: relative;
+    text-align: center;
+}
+
+section table {
+    width: max-content;
+}
+section table td {
+    background-color: #2e9cca;
+    padding: 10px ;
+    height: 10px;
+    width: 190px;
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+footer {
+    background-color: #2D9596;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul{
+    list-style: none;
+}
+img{
+    border-radius: 10px;
+    margin-left: 2cap;
+}
+
+#plan {
+    text-align: center;
+}
+

@@ -1,0 +1,256 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #265073;
+    position: relative;
+    color: #FFFFFF;
+    overflow: scroll;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top-container {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))  , url("images/fondo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    height: 500px;
+    text-align: center;
+
+
+}
+
+.carrera {
+    width: fit-content;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    text-align: justify;
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    margin: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.informacion {
+    margin: 20px 10px;
+    background-color: rgba(79, 77, 77, 0.482);
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.imagen{
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.carrera-imagen {
+    border-radius: 30px;
+}
+
+header {
+    background: hsla(207, 50%, 30%, 1);
+
+    background: linear-gradient(45deg, hsla(207, 50%, 30%, 1) 17%, hsla(181, 54%, 38%, 1) 58%, hsla(164, 36%, 71%, 1) 84%, hsla(76, 58%, 90%, 1) 100%);
+    
+    background: -moz-linear-gradient(45deg, hsla(207, 50%, 30%, 1) 17%, hsla(181, 54%, 38%, 1) 58%, hsla(164, 36%, 71%, 1) 84%, hsla(76, 58%, 90%, 1) 100%);
+    
+    background: -webkit-linear-gradient(45deg, hsla(207, 50%, 30%, 1) 17%, hsla(181, 54%, 38%, 1) 58%, hsla(164, 36%, 71%, 1) 84%, hsla(76, 58%, 90%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#265073", endColorstr="#2D9596", GradientType=1 );
+    
+    padding-top: 15px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+header h1 a{
+    text-align: right;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    transition: color 0.5s ease;    
+}
+
+header h1 a:hover {
+    color: white;
+    background-color: transparent;
+    
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #58a;
+    background-color: transparent;
+}
+
+main {
+    padding: 0 0;
+    margin-top: 0;
+
+}
+#top-title {
+    margin: 0;
+    padding-top: 20px;
+    white-space: nowrap; /* Evita que el texto se desplace a la siguiente línea */
+    overflow: hidden; /* Oculta el desbordamiento del texto */
+    animation: maquina-de-escribir 3s steps(40); 
+}
+@keyframes maquina-de-escribir {
+    from {
+        width: 0;
+        border-right: none;
+    }
+    to {
+        width: 100%;
+    }
+}
+    
+
+#lista-carreras {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border-spacing: 40px;
+    position: relative;
+    text-align: center;
+}
+
+section table {
+    width: max-content;
+}
+section table td {
+    background-color: #2e9cca;
+    padding: 10px ;
+    height: 10px;
+    width: 190px;
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+footer {
+    background-color: #2D9596;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#image-container {
+    text-align: center;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+
+.entrevista {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #9AD0C2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+img {
+    border-radius: 5px;
+}
+.quien {
+    text-align: center;
+    color: black;
+}
+.quien h1 {
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    margin-left: 40px;
+}
+
+.salidas {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    background-color: #328476;
+}
+
+main h1 {
+    margin-top: 50px;
+
+}
